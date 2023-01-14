@@ -1,0 +1,231 @@
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.botton{
+  margin: 60;
+}
+
+body {
+  background: #5ea0bc;
+  background-image: url(./bulle.jpg);
+}
+
+ .home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+ }
+ 
+ .search-container select {
+  width: 25%;
+  padding: 10px ;
+  margin:10px 7px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  background-color: #3a05fa;
+  cursor: pointer;
+  color: rgb(251, 250, 250);
+ }
+ 
+ 
+ h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+ }
+ 
+ h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+ }
+
+ table {
+  border-collapse: collapse;
+  width: 98%;
+  margin-left: 10px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(206, 199, 199);
+}
+
+th {
+  background-color: #3a05fa;
+  color: white;
+}
+
+td{
+  background-color: #080808;
+  color:aliceblue;
+}
+
+.create-button {
+  background-color: #3a05fa;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 53%;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 49%;
+}
+.create-blog {
+  background-color: #3a05fa;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 53%;
+  margin-top: 5%;
+  cursor: pointer;
+  width: 49%;
+}
+
+.create-contact {
+  background-color: #3a05fa;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 62%;
+  margin-top: 5%;
+  cursor: pointer;
+  width: 49%;
+}
+
+.create.create-contact {
+  background-color: #3a05fa;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 73%;
+  margin-top: 2%;
+  cursor: pointer;
+  width: 49%;
+}
+
+input {
+  background-color: rgb(206, 199, 199);
+  color: black;
+ }
+
+ .title{
+  margin-left: 20px;
+  
+ }
+ 
+
+ 
+ .form-container {
+   border: 1px solid #f1f1f1;
+   padding: 16px;
+   margin-left: 23%;
+  margin-top: 1%;
+   width: 50%;
+ }
+ 
+ input[type=text], input[type=date] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ 
+ 
+ 
+ .page-name {
+   padding: 0 15px;
+ }
+ 
+
+
+
+
+ .search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 1px 10px;
+}
+
+.search-container input[type='text'] {
+  width: 75%;
+  padding: 10px ;
+  border: 1px solid #333;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-container select {
+  width: 25%;
+  padding: 10px ;
+  margin:10px 7px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  background-color: #3a05fa;
+  color: white;
+  cursor: pointer;
+}
